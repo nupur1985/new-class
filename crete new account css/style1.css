@@ -1,0 +1,19 @@
+.admin-form{
+    width: 450px;
+    height: 350px;
+    background-color: blueviolet;
+    margin: auto;
+    text-align: center;
+    color: yellow;
+    }
+    input [type sure name, type name , type password]{
+        background-color: red;
+    }
+    input[type=submit]{
+        background-color: green;
+        color: black;
+        font-size: 24px;
+        width: 120px;
+        height: 40px;
+        border-radius: 10px;
+    }

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>create new account</title>
+        <style>
+            div{
+            background-color: none;
+            width: ;
+            height: px;
+            margin-left: 500px;
+            margin-top: 100px;
+        }
+            input[type=submit]{
+                background-color: yellowgreen;
+                color: black;
+                font-size: 24px;
+                width: 120px;
+                height: 40px;
+                border-radius: 10px;
+        </style>
+    </head>
+    <body>
+        <div>
+
+        <h1>Sing up</h1>
+
+        <form action="/action_page.php">
+            
+            <input type="text" name="" placeholder="First name" required>
+            <input type="text" name="" placeholder="surname" required><br> <br>
+            <input type="text" name="" placeholder="Email or phone number" required><br><br>
+            <input type="password" name="" placeholder="New password" required><br>
+            <br> <br>
+            <span class="Birth date :">Birth Date</span>
+            <select>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</ption>
+                <option>5</option>
+                <option>6</option>
+                <option>7</option>
+                <option>8</option>
+                <option>9</ption>
+                <option>10</option>
+                <option>11</option>
+                <option>12</option>
+                <option>13</option>
+                <option>14</ption>
+                <option>15</option>
+                <option>16</option>
+                <option>17</option>
+                <option>18</option>
+                <option>19</ption>
+                <option>20</option>
+                <option>21</option>
+                <option>22</option>
+                <option>23</option>
+                <option>24</ption>
+                <option>25</option>
+                <option>26</option>
+                <option>27</option>
+                <option>28</option>
+                <option>29</ption>
+                <option>30</option>
+            </select>
+            <select>
+                <option>JAN</option>
+                <option>FEB</option>
+                <option>MAR</option>
+                <option>APR</option>
+                <option>MAY</option>
+                <option>JUN</option>
+                <option>JUL</option>
+                <option>AUG</option>
+                <option>SEP</option>
+                <option>OCT</option>
+                <option>NOV</option>
+                <option>DEC</option>
+            </select>
+            <select style="width: 65px;">
+                <option>1990</option>
+                <option>1991</option>
+                <option>1992</option>
+                <option>1993</option>
+                <option>1994</option>
+                <option>1995</option>
+                <option>1996</option>
+                <option>1997</option>
+                <option>1998</option>
+                <option>1999</option>
+            </select><br><br>
+            <span class="Birth date">Gender :</span>
+            <input type="radio" name="Gender" value="Male"> Male
+            <input type="radio" name="Gender" value="female"> female
+            <br> <br>
+            <input type="submit" value="Sing up">
+            </div>
+        </form>
+    </body>
+</html>
